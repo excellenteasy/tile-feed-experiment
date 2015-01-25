@@ -1,0 +1,8 @@
+<div id="wrapper">
+  <div id="scroller">
+    <div class="row" ng-repeat="row in ctrl.items | limitTo:10">
+      <ee-tile options="row[0]"></ee-tile>
+      <ee-tile options="row[1]"></ee-tile>
+    </div>
+  </div>
+</div>
